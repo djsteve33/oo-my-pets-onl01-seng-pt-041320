@@ -33,6 +33,7 @@ class Owner
   end
   
   def dogs 
+    Dog.all.select{|dog| 
     
   
 end

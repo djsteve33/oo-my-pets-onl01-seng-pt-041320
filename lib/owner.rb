@@ -54,7 +54,7 @@ class Owner
   
   def sell_pets
     pets = dogs + cats
-    
+    pets.each{
     
   
 end

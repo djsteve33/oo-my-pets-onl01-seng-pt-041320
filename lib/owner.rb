@@ -33,7 +33,10 @@ class Owner
   end
   
   def dogs 
-    Dog.all.select{|dog| 
+    Dog.all.select{|dogs| dogs.owner == self}
+  end
+  
+  
     
   
 end

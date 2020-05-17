@@ -58,6 +58,7 @@ class Owner
     pets.each{|pet| pet.owner = nil}
   end
   
-    
+  def list_pets
+    "I have "
   
 end
